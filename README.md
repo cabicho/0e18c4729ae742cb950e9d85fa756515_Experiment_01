@@ -20,20 +20,20 @@ All PoCs present in this experiment are adopted from Ange Albertini's ["Funky Fi
 
 This experiment consists of two parts: schizophrenic and golyglot files. Each of these parts contains subsections that contain one or more PoCs. Following list shows all PoCs that are present in this experiment and there respective ID in brackets.
 
-1. schizophrenic files (S)
-   1. PDF (S1)
-   2. BMP (S2)
-   3. GIF (S3)
-2. polyglot files (P)
+1. schizophrenic files **(S)**
+   1. PDF **(S1)**
+   2. BMP **(S2)**
+   3. GIF **(S3)**
+2. polyglot files **(P)**
    1. by concatenation
-      1. PDF ZIP (P1)
+      1. PDF ZIP **(P1)**
    2. host/parasite
-      1. GIF JS (P2)
-      2. JAVA JS (P3)
+      1. GIF JS **(P2)**
+      2. JAVA JS **(P3)**
    3. encryption
-      1. FLV ZIP (P4)
+      1. FLV ZIP **(P4)**
    4. chimera
-      1. PDF ZIP JPG (P5)
+      1. PDF ZIP JPG **(P5)**
 
 ### Hardware/Software
 
