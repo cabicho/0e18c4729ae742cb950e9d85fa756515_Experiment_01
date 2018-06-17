@@ -62,8 +62,7 @@ Make it explicit here if you made any assumptions in your experiment
 
 ## Preconditions  
 
-To run the script "angecrpytion.py" you need to install the python module "pycrypto" to be able to import "AES" from "Crpyto.Cipher".
-No other libraries or modules are needed.  
+To run the script "angecrpytion.py" you need to install the python module "pycrypto" to be able to import "AES" from "Crpyto.Cipher". No other libraries or modules are needed.  
 
 ## Experiment Steps  
 
@@ -71,23 +70,23 @@ Describe each step of the experiment
 
 ## Results  
 
-bmp_schizo.bmp (**S1**):  
+**bmp_schizo.bmp (S1):**  
 Open with Apple-Preview/Google-Chrome/Mozilla-Firefox/Safari to see the blue-red image and open with Universal Viewer to see the black-white image.  
 
-gif_schizo.gif (**S2**):  
+**gif_schizo.gif (S2):**  
 Open with Apple-Preview/Google-Chrome/Mozilla-Firefox/MS-Preview to see the orange GIF text and open with MS-Paint to see the violet GIF text. MS-Paint ignores frame rate and shows last frame.  
 
-pdfzip.pdf (**P1**):  
+**pdfzip.pdf (P1):**  
 Open with any PDF-Viewer (e.g. Apple-Preview or Adobe-Acrobat-Reader) to see the PDF file and execute "unzip polyglot.pdf" (on MacOS) to extract the ZIP-archive.  
 
-GIFJS/gifjs.gif (**P2**):  
+**GIFJS/gifjs.gif (P2):**  
 Open GIFJS/index.html with any browser to execute gifjs.gif as javascript and as gif image.  
 
-HelloWorld.java.html (**P3**):  
+**HelloWorld.java.html (P3):**  
 Rename to HelloWorld.java to use it as java source file. Rename to HelloWorld.java.html (or HelloWorld.html or any other name with the extention .html) to execute javascript code.  
 
-ZIPFLV/zipflv.zip (**P4**):  
+**ZIPFLV/zipflv.zip (P4):**  
 Unzip with any unzipping tool to see archive conten. Run crypt.py to decrypt to a valid FLV video.  
 
-chimera.pdf (**P5**):  
+**chimera.pdf (P5):**  
 Open with Apple-Preview to see PDF content, open with GIMP to see JPEG content, extract with any unzipping tool to get the archive content.  
