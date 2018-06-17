@@ -6,11 +6,11 @@
 
 In this experiment I demonstrate to you how file format hacks can lead to so called "schizophrenic" files and file "polyglots".
 
-"Schizophrenic" files are files that, although having the exact same file format and file content, show different outputs when opened with different parsers of said file format.
+"Schizophrenic" files are files that show different outputs when opened with different parsers. They are crafted by merging two files with the same file format into a single file. Some parsers show the first file content some the other.
 
-"Polyglot" files are files that merge two or more different file formats into one valid file which can be openend with parsers that support at least one of the merged formats.
+"Polyglot" files are files that merge two or more different file formats into one valid file which can be openend with parsers that support at least one of the merged formats. Depending on the parser the file identifies as a different file type.
 
-There is a main.py script that executes all python scripts that automatically create all proof of concepts (PoCs) scripts that are present in this experiment. You can also manually execute specific scripts.
+To run all proof of concepts (PoCs) execute the main.py script.
 
 All PoCs present in this experiment are adopted from Ange Albertini's ["Funky File Formats"](https://events.ccc.de/congress/2014/Fahrplan/system/attachments/2562/original/Funky_File_Formats.pdf).
 
