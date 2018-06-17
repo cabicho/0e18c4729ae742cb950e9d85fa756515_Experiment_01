@@ -30,7 +30,7 @@ This experiment consists of two parts: schizophrenic and golyglot files. Each of
       1. GIF JS **(P2)**
       2. JAVA JS **(P3)**
    3. encryption
-      1. FLV ZIP **(P4)**
+      1. ZIP FLV **(P4)**
    4. chimera
       1. PDF ZIP JPG **(P5)**
 
