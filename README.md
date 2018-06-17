@@ -51,6 +51,7 @@ To verify the resulting schizophrenic files and polyglots use these programs in 
 * Universal Viewer (1.0, Windows)  
 * UnZip (6, MacOS)  
 * Windows Photos (2018, Windows)  
+
 Note: whenever this document refers to any program without explicitly giving the version number, it means the version from this list  
 
 To run the script(s) use python 2.7.  
