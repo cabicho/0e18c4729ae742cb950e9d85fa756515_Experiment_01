@@ -52,7 +52,7 @@ To verify the resulting schizophrenic files and polyglots use these programs in 
 * UnZip (6, MacOS)
 * Windows Photos (2018, Windows)
 
-To run the script(s) use python 2.7 or higher.
+To run the script(s) use python 2.7.
 
 ## Experiment Assumptions
 
