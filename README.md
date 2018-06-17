@@ -21,9 +21,8 @@ All PoCs present in this experiment are adopted from Ange Albertini's ["Funky Fi
 This experiment consists of two parts: schizophrenic and golyglot files. Each of these parts contains subsections that contain one or more PoCs. Following list shows all PoCs that are present in this experiment and there respective ID in brackets.
 
 1. schizophrenic files **(S)**
-   1. PDF **(S1)**
-   2. BMP **(S2)**
-   3. GIF **(S3)**
+   1. BMP **(S1)**
+   2. GIF **(S2)**
 2. polyglot files **(P)**
    1. by concatenation
       1. PDF ZIP **(P1)**
@@ -37,7 +36,23 @@ This experiment consists of two parts: schizophrenic and golyglot files. Each of
 
 ### Hardware/Software
 
-Describe your Hardware & Software setup
+The scripts where executed on a MacBook Pro Retina Mid-2014 with MacOs High Sierra 10.13.5 but should also work on other operating systems that can run python scripts.
+
+To verify the resulting schizophrenic files and polyglots use these programs in their respective versions and OS environment:
+* 7zip (16.04, Windows)
+* Adobe Acrobat Reader (2018.011, MacOS)
+* Apple Preview (10, MacOS)
+* GIMP (2.8.20, MacOS)
+* Google Chrome (67, MacOS)
+* iZip (1.9, MacOS)
+* JPDFViewer (1.0, MacOS)
+* Microsoft Paint (18.03, Windows)
+* Mozilla Firefox (60, MacOS)
+* Universal Viewer (1.0, Windows)
+* UnZip (6, MacOS)
+* Windows Photos (2018, Windows)
+
+To run the script(s) use python 2.7 or higher.
 
 ## Experiment Assumptions
 
