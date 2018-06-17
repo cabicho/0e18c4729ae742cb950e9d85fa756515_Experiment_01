@@ -10,7 +10,7 @@ In this experiment I demonstrate to you how file format hacks can lead to so cal
 
 "Polyglot" files are files that merge two or more different file formats into one valid file which can be openend with parsers that support at least one of the merged formats. Depending on the parser the file identifies as a different file type.  
 
-To run all proof of concepts (PoCs) execute the main.py script.  
+To run all proof of concepts (PoCs) execute the `main.py` script.  
 
 All PoCs present in this experiment are adopted from Ange Albertini's ["Funky File Formats"](https://events.ccc.de/congress/2014/Fahrplan/system/attachments/2562/original/Funky_File_Formats.pdf).  
 
