@@ -58,7 +58,7 @@ To run the script(s) use python 2.7.
 
 ## Experiment Assumptions  
 
-Make it explicit here if you made any assumptions in your experiment  
+To avoid unpredictable outcomes, make sure to execute this experiment with input data that is neither schizophrenic nor a polyglot. Also make sure that they do not have any prepended or appended data because some scripts check for a magic signature at offset 0. In general, all input data should be valid files, i.e. they should not violate the file format specification.
 
 ## Preconditions  
 
