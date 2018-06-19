@@ -10,7 +10,7 @@ In this experiment I demonstrate to you how file format hacks can lead to so cal
 
 "Polyglot" files are files that merge two or more different file formats into one valid file which can be openend with parsers that support at least one of the merged formats. Depending on the parser the file identifies as a different file type.  
 
-To run all proof of concepts (PoCs) execute the `main.py` script.  
+Execute the `main.py` script to run all proof of concepts (PoCs).  
 
 All PoCs present in this experiment are adopted from Ange Albertini's ["Funky File Formats"](https://events.ccc.de/congress/2014/Fahrplan/system/attachments/2562/original/Funky_File_Formats.pdf).  
 
@@ -54,7 +54,7 @@ To verify the resulting schizophrenic files and polyglots use these programs in 
 
 Note: whenever this document refers to any program without explicitly giving the version number, it means the version from this list  
 
-To run the script(s) use python 2.7.  
+Run the script(s) with python 2.7.  
 
 ## Experiment Assumptions  
 
@@ -66,7 +66,24 @@ To run the script "angecrpytion.py" you need to install the python module "pycry
 
 ## Experiment Steps  
 
-Describe each step of the experiment  
+This experiment contains multiple scripts that all create a single PoC. There is a `main.py` script that runs all of the scripts with the right arguments. 
+
+**The command to execute the whole experiment (i.e. main-script) is as simple as `python main.py`.**
+
+The main-script executes following commands:
+(NOTE: all paths are relative from the `code` directory)
+(<DATA-DIR> = ../../data/originaldata)
+(<RESULT-DIR> = ../../result)
+(<CODE-DIR> = ../../code)
+1. `python mergeBMP.py <DATA-DIR>/BMP/image.bmp <DATA-DIR>/BMP/image_1.bmp <RESULT-DIR>/bmp_schizo.bmp`
+2. `python python mergeGIF.py <DATA-DIR>/GIF/image_1.jpg <DATA-DIR>/GIF/image_2.jpg <RESULT-DIR>/gif_schizo.gif`
+3. `python mergeFiles.py <DATA-DIR>/ZIP/animals.zip <DATA-DIR>/PDF/file.pdf <RESULT-DIR>/pdfzip.pdf`
+4. `python mergeGIFJS.py <DATA-DIR>/JS/alert.js <RESULT-DIR>/GIFJS/gifjs.gif`
+5. `python mergeJAVAJS.py <DATA-DIR>/JAVA/HelloWorld.java <DATA-DIR>/JS/alert.js <RESULT-DIR>`
+6. `python angecryption.py <DATA-DIR>/ZIP/a.zip <DATA-DIR>/FLV/video.flv <RESULT-DIR>/ZIPFLV/zipflv.zip 'MySuperSecureKey' aes > <CODE-DIR>/tmp.py`
+7. `python mergePDFZIPJPGchimera.py <DATA-DIR>/JPG/image.jpg <RESULT-DIR>/chimera.pdf`
+
+You can also call one or more scripts manually by using the commands from the list above.
 
 ## Results  
 
