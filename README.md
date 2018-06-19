@@ -52,7 +52,7 @@ To verify the resulting schizophrenic files and polyglots use these programs in 
 * UnZip (6, MacOS)  
 * Windows Photos (2018, Windows)  
 
-Note: whenever this document refers to any program without explicitly giving the version number, it means the version from this list  
+Note: whenever this document refers to any program without explicitly giving the version number, the respective version from this list is used  
 
 Run the script(s) with python 2.7.  
 
