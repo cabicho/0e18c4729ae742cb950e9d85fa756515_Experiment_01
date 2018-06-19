@@ -103,7 +103,7 @@ Open GIFJS/index.html with any browser to execute gifjs.gif as javascript and as
 Rename to HelloWorld.java to use it as java source file. Rename to HelloWorld.java.html (or HelloWorld.html or any other name with the extention .html) to execute javascript code.  
 
 `ZIPFLV/zipflv.zip` (**P4**):  
-Unzip with any unzipping tool to see archive conten. Run crypt.py to decrypt to a valid FLV video.  
+Unzip with any unzipping tool to see archive content. Run crypt.py to decrypt to a valid FLV video.  
 
 `chimera.pdf` (**P5**):  
 Open with Apple-Preview to see PDF content, open with GIMP to see JPEG content, extract with any unzipping tool to get the archive content.  
