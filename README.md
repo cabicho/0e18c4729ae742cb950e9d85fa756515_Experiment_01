@@ -83,7 +83,7 @@ The main-script executes following commands:
 6. **(P4)** `python angecryption.py <DATA-DIR>/ZIP/a.zip <DATA-DIR>/FLV/video.flv <RESULT-DIR>/ZIPFLV/zipflv.zip 'MySuperSecureKey' aes > <CODE-DIR>/tmp.py` (NOTE: `<CODE-DIR>/tmp.py` contains python code to decrypt the resulting polyglot. This script will be manipulated to fit the paths of this experiment and the resulting script will be saved in `code/` as `crypt.py`)
 7. **(P5)** `python mergePDFZIPJPGchimera.py <DATA-DIR>/JPG/image.jpg <RESULT-DIR>/chimera.pdf`
 
-You can also call one or more scripts manually by using the commands from the list above.
+You can also call one or more scripts manually by using the commands from this list.
 
 ## Results  
 
