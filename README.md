@@ -58,11 +58,13 @@ Run the script(s) with python 2.7.
 
 ## Experiment Assumptions  
 
-To avoid unpredictable outcomes, make sure to execute this experiment with input data that is neither schizophrenic nor a polyglot. Also make sure that they do not have any prepended or appended data because some scripts check for a magic signature at offset 0. In general, all input data should be valid files, i.e. they should not violate the file format specification. Please only use the file types that are compatible when running a script manually. There is no guarantee that the scripts run correctly for input data that do not meet these prerequisites.
+No significant assumptions were made.
 
 ## Preconditions  
 
-To run the script "angecrpytion.py" you need to install the python module "pycrypto" to be able to import "AES" from "Crpyto.Cipher". No other libraries or modules are needed.  
+To avoid unpredictable outcomes, make sure to execute this experiment with input data that is neither schizophrenic nor a polyglot. Also make sure that they do not have any prepended or appended data because some scripts check for a magic signature at offset 0. In general, all input data should be valid files, i.e. they should not violate the file format specification. Please only use the file types that are compatible when running a script manually. There is no guarantee that the scripts run correctly for input data that do not meet these prerequisites.
+
+To run the script "angecrpytion.py" you need to install the python module "pycrypto v2.6.1" to be able to import "AES" from "Crpyto.Cipher". No other libraries or modules are needed.  
 
 ## Experiment Steps  
 
