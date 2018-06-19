@@ -70,11 +70,11 @@ This experiment contains multiple scripts that all create a single PoC. There is
 
 **The command to execute the whole experiment (i.e. main-script) is as simple as `python main.py`.**
 
-The main-script executes following commands:
-(NOTE: all paths are relative from the `code` directory)
-(<DATA-DIR> = ../../data/originaldata)
-(<RESULT-DIR> = ../../result)
-(<CODE-DIR> = ../../code)
+The main-script executes following commands:  
+(NOTE: all paths are relative from the `code` directory)  
+(`<DATA-DIR>` = ../../data/originaldata)  
+(`<RESULT-DIR>` = ../../result)  
+(`<CODE-DIR>` = ../../code)  
 1. **(S1)** `python mergeBMP.py <DATA-DIR>/BMP/image.bmp <DATA-DIR>/BMP/image_1.bmp <RESULT-DIR>/bmp_schizo.bmp`
 2. **(S2)** `python mergeGIF.py <DATA-DIR>/GIF/image_1.jpg <DATA-DIR>/GIF/image_2.jpg <RESULT-DIR>/gif_schizo.gif`
 3. **(P1)** `python mergeFiles.py <DATA-DIR>/PDF/file.pdf <DATA-DIR>/ZIP/animals.zip <RESULT-DIR>/pdfzip.pdf`
