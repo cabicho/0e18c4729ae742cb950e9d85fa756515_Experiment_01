@@ -77,16 +77,16 @@ This experiment contains multiple scripts that all create a single PoC. There is
 **The command to execute the whole experiment (i.e. main-script) is as simple as `python main.py`.**
 
 The main-script executes following commands:  
-(NOTE: all paths are relative from the `code` directory)  
+(NOTE: all paths are relative from the `originalcode` directory)  
 (`<DATA-DIR>` = ../../data/originaldata)  
 (`<RESULT-DIR>` = ../../result)  
-(`<CODE-DIR>` = ../../code)  
+(`<CODE-DIR>` = ../)  
 1. **(S1)** `python mergeBMP.py <DATA-DIR>/BMP/image.bmp <DATA-DIR>/BMP/image_1.bmp <RESULT-DIR>/bmp_schizo.bmp`
 2. **(S2)** `python mergeGIF.py <DATA-DIR>/GIF/image_1.jpg <DATA-DIR>/GIF/image_2.jpg <RESULT-DIR>/gif_schizo.gif`
 3. **(P1)** `python mergeFiles.py <DATA-DIR>/PDF/file.pdf <DATA-DIR>/ZIP/animals.zip <RESULT-DIR>/pdfzip.pdf`
 4. **(P2)** `python mergeGIFJS.py <DATA-DIR>/JS/alert.js <RESULT-DIR>/GIFJS/gifjs.gif`
 5. **(P3)** `python mergeJAVAJS.py <DATA-DIR>/JAVA/HelloWorld.java <DATA-DIR>/JS/alert.js <RESULT-DIR>`
-6. **(P4)** `python angecryption.py <DATA-DIR>/ZIP/a.zip <DATA-DIR>/FLV/video.flv <RESULT-DIR>/ZIPFLV/zipflv.zip 'MySuperSecureKey' aes > <CODE-DIR>/tmp.py` (NOTE: `<CODE-DIR>/tmp.py` contains python code to decrypt the resulting polyglot. This script will be manipulated to fit the paths of this experiment and the resulting script will be saved in `code/` as `crypt.py`)
+6. **(P4)** `python angecryption.py <DATA-DIR>/ZIP/a.zip <DATA-DIR>/FLV/video.flv <RESULT-DIR>/ZIPFLV/zipflv.zip MySuperSecureKey aes > <CODE-DIR>/tmp.py` (NOTE: `<CODE-DIR>/tmp.py` contains python code to decrypt the resulting polyglot. This script will then be manipulated to fit the paths of this experiment and the resulting script will be saved in `code/` as `crypt.py`)
 7. **(P5)** `python mergePDFZIPJPGchimera.py <DATA-DIR>/JPG/image.jpg <RESULT-DIR>/chimera.pdf`
 
 You can also call one or more scripts manually by using the commands from this list.
