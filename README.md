@@ -77,7 +77,7 @@ This experiment contains multiple scripts that all create a single PoC. There is
 **The command to execute the whole experiment (i.e. main-script) is as simple as `python main.py`.**
 
 The main-script executes following commands:  
-(NOTE: all paths are relative from the `originalcode` directory)  
+(NOTE: all paths are relative to the `originalcode` directory)  
 (`<DATA-DIR>` = ../../data/originaldata)  
 (`<RESULT-DIR>` = ../../result)  
 (`<CODE-DIR>` = ../)  
