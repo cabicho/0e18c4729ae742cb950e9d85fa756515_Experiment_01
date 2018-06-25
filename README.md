@@ -54,9 +54,9 @@ To verify the resulting schizophrenic files and polyglots use these programs in 
 
 Note: whenever this document refers to any program without explicitly giving the version number, the respective version from this list is used  
 
-To run the script "mergeGIF.py" you neet to install the python module "imageio v2.3.0".
+To run the script `mergeGIF.py` you neet to install the python module "imageio v2.3.0".
 
-To run the script "angecrpytion.py" you need to install the python module "pycrypto v2.6.1" to be able to import "AES" from "Crpyto.Cipher".  
+To run the script `angecrpytion.py` you need to install the python module "pycrypto v2.6.1" to be able to import "AES" from "Crpyto.Cipher".  
 
 No other libraries or modules are needed.  
 
